@@ -1,0 +1,35 @@
+Command line interface (cli):
+
+Commands to use in the CLI:
+$ pwd : home directory.
+$ cd : change directory.
+$ cd .. : go to parent directory.
+$ ls : list of the folders and files in the directory you are in.
+$ clear : to clear the command line interface.
+$ mkdir : is a command to create a folder.
+$ touch : is to create a file.
+$ code . : is to open Visual studio code in the current directory.
+$ mv : moves  a file or directory, it’s also used to rename a file or directory.
+$ cat : print the content of a text file in command line interface.
+$ cp : is to copy a file.
+$ rm : is to remove a files.
+$ rmdir or: is to remove directory’s.
+$ rm –rf: is to remove a hidden file or directory but not subdirectories.
+$ winword: is to open a Word file.
+$ To create a hidden file or directory you use the commands but you add (.) before the file or directory name. 
+$ ls –la: is to display hidden files or directories. 
+$ mkdir –p: is to create multiple directories in one command line.
+$ cat + filename: is to view the content of the file.
+$ cat + filename filename: is to view multiple files.
+$ printf + “text %s\n text” or echo –e “text”: is to append a message to a file .
+$ echo  -e + “text \n “: is to append a message to a file by adding the (\n) you go to a new line. 
+$ vi + filename: is to open and edit a file in command line.
+
+		Some commands to help editing text in text editor VIM:
+Note: in order to insert commands u have to not be in the editing mode.
+I : is to enter editing mode.
+Esc : is to end editing mode 
+:x : is to save the document and close it ( works after making changes).
+:q : is to close the editor ( works if u did not make changes).
+:q! : is to close the editor without saving the changes u made.
+
