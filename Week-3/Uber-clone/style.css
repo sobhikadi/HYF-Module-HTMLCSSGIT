@@ -202,6 +202,49 @@ header{
 }
 
 
+/**************** Main *****************/
+
+
+.main-part{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-part img{
+        width: 570px;
+}
+
+.main-part h2 {
+    font-size: 36px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    width: 90%;
+    
+}
+
+.main-part .saftey-cities{
+    display: flex;
+    
+    width: 80%;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+.saftey-cities .safety{
+    width: 50%;
+}
+
+.saftey-cities .cities{
+    width: 50%;
+}
+
+.main-part h4 {
+    margin: 15px 0;
+    font-size: 18px;
+
+}
+
+
 
 
 
