@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Caveat', cursive;
+  color: #ffca2ae8;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(background.jpg);
+  display: flex;
+}
+
+/************* left-side-style ***************/
+
+.left-side {
+  width: 40%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.left-side h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.left-side img {
+  width: 17rem;
+  border-radius: 50%;
+  margin: 0.625rem auto;
+}
+
+.left-side p {
+  font-size: 1.7rem;
+  line-height: 1.3em;
+  margin: 0.625rem 0;
+}
+
+.left-side ul {
+  align-self: flex-start;
+  list-style: none;
+  margin-top: 0.625rem;
+  font-size: 1.6rem;
+  line-height: 1.4em;
+}
+
+.left-side ul a {
+  color: #ffbf00e8;
+}
+
+/*********** right-side-style ************/
+.right-side {
+  width: 60%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(36, 36, 36);
+  margin: 1rem;
+}
+
+.panel {
+  background-color: rgba(255, 255, 255, 0.562);
+  border-radius: 50px;
+  height: 95%;
+  width: 10%;
+  cursor: pointer;
+  margin: 0.625rem;
+  padding: 0.5rem;
+  transition: width 0.6s ease-in;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel h2 {
+  font-size: 2.25rem;
+  padding: 0.625rem 0 1rem 1rem;
+}
+
+.panel ul {
+  font-size: 2rem;
+  line-height: 1.6em;
+  padding-left: 2rem;
+}
+
+.panel ul,
+.panel h2 {
+  opacity: 0;
+}
+
+.active {
+  width: 90%;
+}
+
+.active ul,
+.active h2 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.5s;
+}
+
+.panel ul > li {
+  margin-bottom: 0.625rem;
+}
+
+.panel.skills h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.panel.skills p {
+  margin: 1rem 0;
+  font-size: 1.7rem;
+  line-height: 1.8rem;
+}
+
+.panel.skills li {
+  font-size: 1.7rem;
+  line-height: 1.3em;
+}
+
+/********* Media query ***********/
+
+/* @media (max-width: 700px) {
+  .left-side {
+    width: 100%;
+  }
+
+  .right-side {
+    width: 100%w;
+  }
+} */
