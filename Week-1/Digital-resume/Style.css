@@ -125,3 +125,57 @@ body {
   font-size: 1.7rem;
   line-height: 1.3em;
 }
+
+/************ Media query **********/
+
+@media (max-width: 650px) {
+  body {
+    overflow-y: scroll;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .left-side {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .left-side h1 {
+    font-size: 2rem;
+  }
+
+  .left-side p {
+    font-size: 1.2rem;
+  }
+
+  .left-side ul {
+    font-size: 1rem;
+  }
+
+  .right-side {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .panel h2 {
+    font-size: 2rem;
+  }
+
+  .panel ul {
+    font-size: 1rem;
+  }
+
+  .panel.skills h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+
+  .panel.skills p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    line-height: 1.2em;
+  }
+
+  .panel.skills li {
+    font-size: 1.2rem;
+  }
+}
