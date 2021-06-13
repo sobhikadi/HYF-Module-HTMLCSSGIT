@@ -57,6 +57,12 @@ For instance, if you wanted to make shortcuts for most commands you use but they
 
 19.	$ attrib -h (filename): is to make a file or directory visible. 
 
+20.	$ mkdir –p: is to create multiple directories in one command line.
+
+21.	$ printf + “text %s\n text” or echo –e “text”: is to append a message to a file .
+
+22.	$ echo  -e + “text \n “: is to append a message to a file by adding the (\n) you go to a new line.
+
 
 
 Some commands to help editing text in text editor VIM:
