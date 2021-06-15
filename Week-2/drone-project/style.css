@@ -15,19 +15,18 @@ body {
 header {
   background-color: rgb(113, 167, 185);
   width: 100%;
-  height: 10vh;
+  height: 10%;
+  font-size: 2em;
+  padding: 5px 10px;
   margin-bottom: 1rem;
 }
 
-h1 {
-  font-size: 3.5rem;
-  padding: 5px 10px;
-}
-
 main {
-  background-color: rgba(227, 230, 233, 0.863);
   margin: 0 auto;
   width: 95%;
+}
+main section {
+  background-color: rgba(227, 230, 233, 0.863);
 }
 
 li {
@@ -41,25 +40,26 @@ li {
 
 h2 {
   background-color: rgb(113, 167, 185);
-  font-size: 1.7rem;
+  font-size: 1.5em;
   width: 100%;
-  height: 5vh;
+  height: 5%;
   padding: 5px 10px;
   margin-bottom: 10px;
   clear: both;
 }
 
-h3 {
-  font-size: 1.2rem;
+.grid-item h3 {
+  font-size: 1.2em;
 }
 
-img {
-  width: 22rem;
-  height: 21rem;
+.grid-item img {
+  width: 80%;
+  height: 55%;
+  margin: 1em;
 }
 
-p {
-  font-size: 1rem;
+.grid-item p {
+  font-size: 1em;
 }
 
 /**************** float grid******************/
@@ -67,14 +67,13 @@ p {
 .grid-floats {
   width: 100%;
   padding: 0px 5px;
-  margin-bottom: 0.5rem;
-  float: left;
+  margin-bottom: 2rem;
 }
 
-.grid-floats > .grid-item {
+.grid-floats .grid-item {
   display: block;
   width: 25%;
-  height: 28.5rem;
+  height: 28.5em;
   text-align: center;
   float: left;
   margin-bottom: 1rem;
@@ -82,23 +81,22 @@ p {
 
 .grid-floats li:nth-child(1) {
   width: 45%;
-  height: 30rem;
+  height: 30em;
 }
 
 .grid-floats li:nth-child(2) {
   width: 27.5%;
-  height: 30rem;
+  height: 30em;
 }
 
 .grid-floats li:nth-child(3) {
   width: 27.5%;
-  height: 30rem;
+  height: 30em;
 }
 
 /**************** Flex grid******************/
 
 .grid-flex {
-  float: left;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -131,145 +129,95 @@ p {
 /**********Media for tablet**********/
 
 @media (max-width: 1024px) {
-  header {
-    height: 6vh;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-    height: 4vh;
-  }
-
-  h3 {
-    font-size: 1rem;
-  }
-
-  img {
-    width: 14.5rem;
-    height: 10rem;
-  }
-
-  p {
-    font-size: 0.8rem;
-  }
-
   /********* Grid float ***********/
 
   .grid-floats > .grid-item {
     width: 33.33%;
-    height: 17rem;
+    height: 24rem;
   }
 
   .grid-floats li:nth-child(1) {
     width: 50%;
-    height: 17rem;
+    height: 24rem;
   }
 
   .grid-floats li:nth-child(2) {
     width: 50%;
-    height: 17rem;
+    height: 24rem;
   }
 
   .grid-floats li:nth-of-type(3) {
     width: 33.33%;
-    height: 17rem;
+    height: 24rem;
   }
 
   /*********** Grid flex **********/
 
   .grid-flex > .grid-item {
     width: 33.33%;
-    height: 17rem;
+    height: 24rem;
   }
 
   .grid-flex li:nth-of-type(1) {
     width: 50%;
-    height: 17rem;
+    height: 24rem;
   }
 
   .grid-flex li:nth-of-type(2) {
     width: 50%;
-    height: 17rem;
+    height: 24rem;
   }
 
   .grid-flex li:nth-of-type(3) {
     width: 33.33%;
-    height: 17rem;
+    height: 24rem;
   }
 }
 
 /**********Media for Mobile **********/
 
 @media (max-width: 600px) {
-  header {
-    height: 5vh;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-  h2 {
-    font-size: 1rem;
-    height: 3vh;
-  }
-
-  h3 {
-    font-size: 0.7rem;
-  }
-
-  img {
-    width: 13rem;
-    height: 9rem;
-  }
-
-  p {
-    font-size: 0.5rem;
-  }
-
   /********* Grid float ***********/
 
   .grid-floats > .grid-item {
     width: 100%;
-    height: 12rem;
+    height: 20rem;
   }
 
   .grid-floats li:nth-child(1) {
     width: 100%;
-    height: 12rem;
+    height: 20rem;
   }
 
   .grid-floats li:nth-child(2) {
     width: 100%;
-    height: 12rem;
+    height: 20rem;
   }
 
   .grid-floats li:nth-of-type(3) {
     width: 100%;
-    height: 12rem;
+    height: 20rem;
   }
 
   /*********** Grid flex **********/
 
   .grid-flex > .grid-item {
     width: 100%;
-    height: 12rem;
+    height: 20rem;
   }
 
   .grid-flex li:nth-of-type(1) {
     width: 100%;
-    height: 12rem;
+    height: 20rem;
   }
 
   .grid-flex li:nth-of-type(2) {
     width: 100%;
-    height: 12rem;
+    height: 20rem;
   }
 
   .grid-flex li:nth-of-type(3) {
     width: 100%;
-    height: 12rem;
+    height: 20rem;
   }
 }
