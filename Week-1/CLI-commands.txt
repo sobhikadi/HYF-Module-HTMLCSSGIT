@@ -1,92 +1,14 @@
-Command line interface (cli): is a way of interacting with your computer.
 
-
-Command line operators: 
-there is two handy and powerful operators you can use in the command line interface the ( > , |) operators.
-1-( > ) the greater than operator: this operator is used to redirect output from one command into another 
-ex: if you want to use (ls –l) to display a list of files but you want to put this list in a file instead of listing it 
-in the command line screen, you can redirect the output from the (ls –l) command into the input of other command by using the > character: (ls –l > filename).
-2-( | ) the vertical line operator: lets you chain commands together into much more powerful commands 
-ex: if you want to use (ls –l) to display a list of files but it keeps scrolling off the screen,
- you can pipe the output from the (ls –l) command into the input of the more command by using the | character(ls -l | more).
-
-
-Using Aliases:
-Aliases save you loads of time by shortening long, complicated commands down into really simple 
-ones, or by setting the default parameters to a command so you don't have to type them every time. 
-For instance, if you wanted to make shortcuts for most commands you use but they are too long and takes time so you use this alias ex: alias ls=’ls –l’.
-
-
-1.	$ pwd: home directory.
-
-2.	$more <filename>: lets you view text files or other output in a scrollable manner. 
-	It displays the text one screen full at a time, and lets you scroll backwards and forwards through the text, and even lets you search the text
-
-3.	$ cd : change directory.
-
-4.	$ cd .. : go to parent directory.
-
-5.	$ ls : list of the folders and files in the directory you are in.
-
-6.	$ clear : to clear the command line interface.
-
-7.	$ mkdir : is a command to create a folder.
-
-8.	$ touch : is to create a file.
-
-9.	$ code . : is to open Visual studio code in the current directory.
-
-10.	$ mv : moves  a file or directory, it’s also used to rename a file or directory.
-
-11.	$ cat : print the content of a text file in command line interface.
-
-12.	$ cp : is to copy a file.
-
-13.	$ rm : is to remove a files.
-
-14.	$ rmdir or: is to remove directory’s.
-
-15.	$ To create a hidden file or directory you use the commands but you add (.) before 
+1.	$ To create a hidden file or directory you use the commands but you add (.) before 
 	the file or directory name. 
 
-16.	$ rm –rf: is to remove a hidden file or directory but not subdirectories.
+2.	$ attrib +h (filename): is to make a file or directory hidden.
 
-17.	$ ls –la: is to display hidden files or directories. 
+3.	$ attrib -h (filename): is to make a file or directory visible. 
 
-18.	$ attrib +h (filename): is to make a file or directory hidden.
+4.	$ mkdir –p: is to create multiple directories in one command line.
 
-19.	$ attrib -h (filename): is to make a file or directory visible. 
+5.	$ printf + “text %s\n text” or echo –e “text”: is to append a message to a file .
 
-20.	$ mkdir –p: is to create multiple directories in one command line.
+6.	$ echo  -e + “text \n “: is to append a message to a file by adding the (\n) you go to a new line.
 
-21.	$ printf + “text %s\n text” or echo –e “text”: is to append a message to a file .
-
-22.	$ echo  -e + “text \n “: is to append a message to a file by adding the (\n) you go to a new line.
-
-
-
-Some commands to help editing text in text editor VIM:
-
-Note: in order to insert commands u have to not be in the editing mode while using the editor.
-
-1.	I : is to enter editing mode.
-
-2.	Esc : is to end editing mode 
-
-3.	:x : is to save the document and close it ( works after making changes).
-
-4.	:q : is to close the editor ( works if u did not make changes).
-
-5.	:wq!: is to save an close
-
-6.	:q! : is to close the editor without saving the changes u made.
-
-
-Shortcuts:
-
-1.	Ctrl + U: Clears the line from the cursor point back to the beginning.
-2.	Ctrl + A: Moves the cursor to the beginning of the line.
-3.	Ctrl + E: Moves the cursor to the end of the line.
-4.	Ctrl + R: Allows you to search through the previous commands.
-5.	Ctrl + L:Clears the commands line window.
-6.	Ctrl + C: is to kill any process going on in the CMD.
