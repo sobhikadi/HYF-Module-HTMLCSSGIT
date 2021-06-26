@@ -1,0 +1,10 @@
+@use 'custom';
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+.nav-link,
+.nav-link:focus,
+.nav-link:hover {
+  color: #27354c;
+}
